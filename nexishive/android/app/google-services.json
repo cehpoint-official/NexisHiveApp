@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "316147822294",
+    "project_id": "repo-edc2d",
+    "storage_bucket": "repo-edc2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316147822294:android:4560e9b3f7352d56922377",
+        "android_client_info": {
+          "package_name": "com.app.nexishive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316147822294-iuto4846rtns8rrieqb5otlqmm78hp86.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3JQgp7Q5GiI0zlC5i-Qs2W9tUvxPew5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316147822294-iuto4846rtns8rrieqb5otlqmm78hp86.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "316147822294-ek2rhc9d17h19sbmt6t83kk3it7ojgfl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.nexishive"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

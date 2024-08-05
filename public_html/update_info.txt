@@ -1,0 +1,52 @@
+***** Date: 26/04/2024 *****
+
+--> Updated Files <--
+.env
+app\Http\Controllers\AdminController.php
+app\Http\Controllers\PostController.php
+app\Http\Controllers\ProfileVerificationController.php
+app\Http\Controllers\RoomController.php
+app\Http\Controllers\SettingsController.php
+app\Http\Controllers\UserController.php
+
+app\Models\Constants.php
+app\Models\GlobalFunction.php
+
+public\asset\css\style.css
+public\asset\image\verified.svg
+
+public\asset\script\env.js
+public\asset\script\notification.js
+public\asset\script\setting.js
+public\asset\script\user.js
+
+resources\lang\en.json
+
+resources\views\index.blade.php
+resources\views\setting.blade.php
+resources\views\users.blade.php
+resources\views\include\app.blade.php
+
+routes\api.php
+routes\web.php
+
+
+--> Added Files <--
+public\asset\script\admob.js
+app\Models\Users.php
+
+public\asset\script\verificationRequests.js
+
+resources\views\admob.blade.php
+resources\views\verificationRequests.blade.php
+
+
+--> Remove Files <--
+public\asset\script\profileVerification.js
+resources\views\profileVerification.blade.php
+
+
+--> Database <--
+- room_users : fields added : is_mute
+- settings : fields added : minute_limit_in_creating_story, minute_limit_in_choosing_video_for_story, minute_limit_in_choosing_video_for_post,              
+max_images_can_be_uploaded_in_one_post, ad_banner_android, ad_interstitial_android, ad_banner_iOS, ad_interstitial_iOS, is_admob_on
